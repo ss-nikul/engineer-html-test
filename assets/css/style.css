@@ -1,0 +1,160 @@
+body {
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+html,
+body,
+.section {
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-wrapper {
+    position: relative;
+}
+
+
+.main-wrapper .section {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main-wrapper .section.slide-1 {
+    background-image: url('../images/slide-1.jpg');
+}
+
+.main-wrapper .section.slide-2 {
+    background-image: url('../images/slide-2.jpg');
+}
+
+.main-wrapper .section.slide-3 {
+    background-image: url('../images/slide-3.jpg');
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links li a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #808080;
+}
+
+.social-links li:last-child a {
+    margin-right: 0;
+}
+
+.color-green {
+    color: #a0cf32;
+}
+
+.center-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-transparent input {
+    border-bottom: 1px solid #a0cf32 !important;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.input-transparent input:focus {
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.input-transparent .input-group-text {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navigate-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 25px;
+}
+
+.navigate-bottom p {
+    color: #a3a3a3;
+}
+
+.navigate-bottom p a {
+    color: #a3a3a3;
+    text-decoration: underline;
+}
+
+.content-div {
+    height: 100%;
+    position: relative;
+}
+
+.content-div .content {
+    font-size: 28px;
+    color: #fff;
+}
+
+.content-div div {
+    color: #fff;
+}
+
+.content-div p {
+    margin-bottom: 3px;
+}
+
+.content-div p:last-child {
+    margin-bottom: 0;
+}
+
+.bg-green {
+    background-color: #a0cf32;
+}
